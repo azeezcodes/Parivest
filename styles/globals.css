@@ -15,12 +15,15 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.err{
+    background-color: #F3F6FC ;
+    color: #295AA9;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 5px;
+     margin: 30px;
+}
+.err:hover{
+    background-color: white;
+    border: 1px solid #295AA9;
 }
